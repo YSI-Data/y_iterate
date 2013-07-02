@@ -223,12 +223,12 @@ Iterators:
 	#define PS_IS_PLAYER_CONNECTED IsPlayerConnected
 #endif
 
-//#include "..\YSI-Core\y_debug"
-//#include "..\YSI-Coding\y_hooks"
+//#include "..\YSI_Core\y_debug"
+//#include "..\YSI_Coding\y_hooks"
 
-#include "..\YSI-Internal\y_natives"
-#include "..\YSI-Core\y_debug"
-//#include "..\YSI-Core\y_als"
+#include "..\YSI_Internal\y_natives"
+#include "..\YSI_Core\y_debug"
+//#include "..\YSI_Core\y_als"
 
 #if defined SendChat || defined FOREACH_NO_PLAYERS
 	#define BOTSYNC_IS_BOT     (true)
